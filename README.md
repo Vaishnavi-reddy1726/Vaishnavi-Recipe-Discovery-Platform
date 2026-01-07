@@ -32,25 +32,23 @@ This project is ideal for beginners learning full-stack development, or for anyo
 Vaishnavi-Recipe-Discovery-Platform/
 │
 ├── server/
-│   ├── controllers/   # Handles application logic
-│   ├── models/        # Mongoose models for recipes and categories
-│   └── routes/        # Express routes
+│   ├── controllers/     # Handles application logic
+│   ├── models/          # Mongoose models for recipes and categories
+│   └── routes/          # Express routes
 │
-├── views/             # EJS templates
-├── public/            # CSS, JS, images
-├── app.js             # Main application file
-├── package.json       # Project metadata and dependencies
-└── .env               # Environment variables
+├── views/               # EJS templates
+│
+├── public/              # Static assets (CSS, JS, images)
+│
+├── app.js               # Main application file
+├── package.json         # Project metadata and dependencies
+└── .env                 # Environment variables
 
 ### Screenshots
 
-**Homepage**
-![Homepage](public/screenshots/homepage.png)
+![Homepage](./public/screenshots/homepage.png)
+![About Page](./public/screenshots/Contact.png)
+![Submit Recipe](./public/screenshots/submit-recipe.png)
 
-**Recipe Detail Page**
-![Recipe Detail](public/screenshots/recipe-detail.png)
-
-**Submit Recipe Page**
-![Submit Recipe](public/screenshots/submit-recipe.png)
 
 
