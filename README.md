@@ -28,7 +28,8 @@ This project is ideal for beginners learning full-stack development, or for anyo
 - **Connect-Flash** – Display flash messages in the UI  
 - **Express-FileUpload** – Handle image uploads 
 ## Project Structure 
-**Vaishnavi-Recipe-Discovery-Platform/**
+
+Vaishnavi-Recipe-Discovery-Platform/
 │
 ├── server/
 │   ├── controllers/   # Handles application logic
@@ -52,6 +53,4 @@ This project is ideal for beginners learning full-stack development, or for anyo
 **Submit Recipe Page**
 ![Submit Recipe](public/screenshots/submit-recipe.png)
 
-**Contact Page**
-![Submit Recipe](public/screenshots/Contact_Suggestions.png)
 
