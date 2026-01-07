@@ -29,26 +29,27 @@ This project is ideal for beginners learning full-stack development, or for anyo
 - **Express-FileUpload** – Handle image uploads 
 ## Project Structure 
 
-Vaishnavi-Recipe-Discovery-Platform/
-│
-├── server/
-│   ├── controllers/     # Handles application logic
-│   ├── models/          # Mongoose models for recipes and categories
-│   └── routes/          # Express routes
-│
-├── views/               # EJS templates
-│
-├── public/              # Static assets (CSS, JS, images)
-│
-├── app.js               # Main application file
-├── package.json         # Project metadata and dependencies
-└── .env                 # Environment variables
+📂 Vaishnavi-Recipe-Discovery-Platform/
+├── 📂 server/
+│   ├── 📂 controllers/
+│   ├── 📂 models/
+│   └── 📂 routes/
+├── 📂 views/
+├── 📂 public/
+│   ├── 📂 css/
+│   ├── 📂 js/
+│   └── 📂 img/
+├── 📄 app.js
+├── 📄 package.json
+└── 📄 .env
 
 ### Screenshots
 
-![Homepage](./public/screenshots/homepage.png)
-![About Page](./public/screenshots/Contact.png)
-![Submit Recipe](./public/screenshots/submit-recipe.png)
+### Screenshots
+
+![Homepage](./screenshots/homepage.png)
+![About Page](./screenshots/Contact.png)
+![Submit Recipe](./screenshots/submit-recipe.png)
 
 
 
