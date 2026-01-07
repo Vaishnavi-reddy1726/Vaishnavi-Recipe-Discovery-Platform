@@ -1,36 +1,58 @@
-# Recipe Blog - Using Node.js and MongoDB
+# Vaishnavi Recipe Discovery Platform 🍴
 
-## Create .env file
-Create a .env file to store your MongoDB database credentials
+A modern, full-stack web application for discovering, sharing, and managing recipes. This platform allows users to browse recipes, search by name or category, and even submit their own recipes with images. Built with **Node.js**, **Express**, **MongoDB**, and **EJS**, it features a clean, responsive design powered by **Bootstrap 5**.
 
-Example only (copy the full connection string from MongoDB):
-```
-MONGODB_URI = mongodb+srv://<username>:<password>@cluster0.6m5cz.mongodb.net/
-```
+---
 
-## Installation
-To run this project, install it locally using npm:
+## 🔹 Project Overview
 
-```
-$ npm install
-$ npm start
-```
+The **Vaishnavi Recipe Discovery Platform** is designed to make recipe exploration simple and fun:
+
+- **Explore Recipes:** Browse latest, random, and categorized recipes.  
+- **Search Recipes:** Find recipes by name or ingredients.  
+- **Submit Recipes:** Users can submit new recipes with images.  
+- **Responsive Design:** Works on desktop, tablet, and mobile devices.  
+
+This project is ideal for beginners learning full-stack development, or for anyone who wants to create a personal recipe website.
+
+---
+
+## 🛠 Technologies Used
+
+- **Node.js** – JavaScript runtime for the backend  
+- **Express.js** – Web application framework  
+- **MongoDB & Mongoose** – NoSQL database with schema modeling  
+- **EJS** – Templating engine for dynamic HTML rendering  
+- **Bootstrap 5** – Frontend framework for responsive design  
+- **Nodemon** – Development tool for auto-reloading server  
+- **Connect-Flash** – Display flash messages in the UI  
+- **Express-FileUpload** – Handle image uploads 
+## Project Structure 
+**Vaishnavi-Recipe-Discovery-Platform/**
+│
+├── server/
+│   ├── controllers/   # Handles application logic
+│   ├── models/        # Mongoose models for recipes and categories
+│   └── routes/        # Express routes
+│
+├── views/             # EJS templates
+├── public/            # CSS, JS, images
+├── app.js             # Main application file
+├── package.json       # Project metadata and dependencies
+└── .env               # Environment variables
+
+### Screenshots
+
+**Homepage**
+![Homepage](public/screenshots/Home Page.png)
+
+**Recipe Detail Page**
+![Recipe Detail](public/screenshots/Publish your recipe.png)
+
+**Submit Recipe Page**
+![Submit Recipe](public/screenshots/submit-recipe.png)
+
+**Contact Page**
+![Submit Recipe](public/screenshots/Contact_Suggestions.png)
 
 
-### YouTube Video & Article
-
-[YouTube Video](https://youtu.be/OEdPH4fV7vY)
-
-[Read Article](https://raddy.dev/blog/how-to-build-a-recipe-blog-using-node-js-and-mongodb-express-ejs-mongoose-crud/)
-
-### YouTube Channel - Raddy
-
-[Subscribe to my YouTube Channel](https://www.youtube.com/channel/UCvXscyQ0cLzPZeNOeXI45Sw?sub_confirmation=1)
-
-### Website
-[www.raddy.dev](https://www.raddy.dev)
-
-### Donations
-[Via Paypal](https://www.paypal.com/donate/?hosted_button_id=YUH7JRDUN5QEY)
-
-[Buy me a Coffee](https://www.buymeacoffee.com/RaddyTheBrand)
