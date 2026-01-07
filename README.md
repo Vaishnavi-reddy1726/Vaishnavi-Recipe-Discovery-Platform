@@ -30,17 +30,29 @@ This project is ideal for beginners learning full-stack development, or for anyo
 ## Project Structure 
 
 📂 Vaishnavi-Recipe-Discovery-Platform/
+
 ├── 📂 server/
+
 │   ├── 📂 controllers/
+
 │   ├── 📂 models/
+
 │   └── 📂 routes/
+
 ├── 📂 views/
+
 ├── 📂 public/
+
 │   ├── 📂 css/
+
 │   ├── 📂 js/
+
 │   └── 📂 img/
+
 ├── 📄 app.js
+
 ├── 📄 package.json
+
 └── 📄 .env
 
 ### Screenshots
