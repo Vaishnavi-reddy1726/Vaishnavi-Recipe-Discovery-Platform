@@ -44,15 +44,14 @@ This project is ideal for beginners learning full-stack development, or for anyo
 ### Screenshots
 
 **Homepage**
-![Homepage](public/screenshots/Home Page.png)
+![Homepage](public/screenshots/homepage.png)
 
 **Recipe Detail Page**
-![Recipe Detail](public/screenshots/Publish your recipe.png)
+![Recipe Detail](public/screenshots/recipe-detail.png)
 
 **Submit Recipe Page**
 ![Submit Recipe](public/screenshots/submit-recipe.png)
 
 **Contact Page**
 ![Submit Recipe](public/screenshots/Contact_Suggestions.png)
-
 
